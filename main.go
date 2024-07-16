@@ -23,7 +23,6 @@ func main() {
 	fmt.Printf("%d", now)
 
 	BuildTime = time.Now().String()
-	//cmd.SgEventServiceServerStart(GitCommit, BuildTime)
 
 	cmd.OrderServerStart(GitCommit, BuildTime)
 

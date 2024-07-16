@@ -12,7 +12,6 @@ import (
 	"fcm-sender/helper/zlog"
 	"fcm-sender/pkg/rdb"
 	"fcm-sender/pkg/rdb/rdb_config"
-	//"firebase.google.com/go/v4/messaging"
 )
 
 var (
